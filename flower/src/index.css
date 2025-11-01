@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+
+    
+}
+
+.leaflet-control-zoom {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  background-color: #ffffff !important;
+  color: rgb(112, 109, 109) !important;
+  font-weight: bold !important;
+  width: 32px !important;
+  height: 38px !important;
+  font-size: 28px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 2px;
+}
+.leaflet-control-zoom-in {
+  border-bottom: 1px solid rgba(65, 59, 59, 0.2) !important;
+}
