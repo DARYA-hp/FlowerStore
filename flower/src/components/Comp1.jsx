@@ -1,14 +1,14 @@
 function Component1() {
   return (
     <>
-      <div className="relative flex flex-row justify-between px-48 bg-[url('/0f4dc2f74cd8f9f10549ecf5bd3c190241e16d93.jpg')] bg-cover bg-center">
+      <div className="relative flex flex-row justify-between py-5 px-52 bg-[url('/0f4dc2f74cd8f9f10549ecf5bd3c190241e16d93.jpg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-black/50"></div>
 
-        <div className="relative pt-20">
+        <div className="relative  pt-20">
           <p className="text-[40px] w-[315px] font-[700] text-white">
             Garden Pokhara welcomes you!!
           </p>
-          <p className="py-10 text-white w-[315px] text-[20px]">
+          <p className="pb-16 pt-10 text-white w-[315px] text-[20px]">
             Receive 10% off on your purchase. Redeem now!
           </p>
         </div>

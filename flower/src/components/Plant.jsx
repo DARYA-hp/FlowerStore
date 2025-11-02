@@ -16,7 +16,7 @@ function Plant(){
                 {PlantsArray.map((item , index)=>(
                     <>
                     <div key={index} className=" flex gap-4 flex-col items-center ">
-                    <img src={item.img} alt={item.img} className=" w-[260px] h-[260px] rounded-xl" />
+                    <img src={item.img} alt={item.img} className=" w-[250px] h-[250px] rounded-xl" />
                     <p className=" text-[18px] font-[700]">{item.name}</p>
                     </div>
                     </>
