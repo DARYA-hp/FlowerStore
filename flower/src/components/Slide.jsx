@@ -16,12 +16,12 @@ function Slide() {
 
     const { title, subtitle, img, description } = slider[current]
 
-    // useEffect(()=>{
-    //     const interval=setInterval(()=>{
-    //         nextSlide();
-    //     },5000);
-    //     return ()=>clearInterval(interval);
-    // },[])
+    useEffect(()=>{
+        const interval=setInterval(()=>{
+            nextSlide();
+        },3000);
+        return ()=>clearInterval(interval);
+    },[])
 
     const prevSlide = () => {
         setCurrent(prev => (prev - 1 + slider.length) % slider.length)
@@ -39,10 +39,10 @@ function Slide() {
                 </div>
 
                 <div className=" w-[560px] h-[840px] object-contain object-left">
-                    <img src={img} alt={title} className="w-[900px] h-[840px] rounded-b-3xl" />
+                    <img src={img} alt={title} className="w-[900px] h-[800px] rounded-b-3xl" />
                 </div>
 
-                <div className=" flex absolute pl-[160px] pt-10   ">
+                <div className=" flex absolute pl-[160px] ">
                     <button onClick={prevSlide} className=""><IoIosArrowRoundBack className=" w-20 h-8 pr-12" /></button>
                     <p className=" font-medium font-Poppins">{title}</p>
                     <button onClick={nextSlide} className=""><IoIosArrowRoundForward className=" w-20 h-8 pl-12" /></button>
@@ -66,7 +66,7 @@ function Slide() {
                     </div>
                 </div>
 
-                <div className=" flex gap-4 text-[17px] absolute right-28 top-[800px]">
+                <div className=" flex gap-4 text-[17px] absolute right-28 top-[780px]">
                     <FaFacebookF />
                     <FaYoutube />
                     <FaInstagram />

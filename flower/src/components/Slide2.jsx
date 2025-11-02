@@ -6,9 +6,9 @@ function Slide2() {
                     <h2 className=" text-[36px] font-[700] pt-28 w-[60%] pb-8">Explore from Categories</h2>
                 </div>
                 <div>
-                    <p className=" text-[#68737F] w-[70%] text-lg leading-relaxed font-Poppins">There are different types of plants all around us, and most of us recognize many kinds of plants that flower, grow in our gardens, or that we can eat. There is a vast range in the types of plants that grow in the world.</p>
+                    <p className=" text-[#68737F] w-[69%] text-lg leading-relaxed font-Poppins">There are different types of plants all around us, and most of us recognize many kinds of plants that flower, grow in our gardens, or that we can eat. There is a vast range in the types of plants that grow in the world.</p>
                 </div>
-                <button className=" bg-[#8BB178] text-white95 px-6 py-2 mt-5 text-xl text-white">See All</button>
+                <button className=" bg-[#8BB178] text-white95 px-7 py-3 mt-5 text-xl text-white">See All</button>
 
             </div>
 
